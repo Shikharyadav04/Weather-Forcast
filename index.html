@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEATHER FORCAST</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="heading">
+        <h2> Weather forecasting</h2>
+
+    </div>
+    <div class="container">
+        <div class="input">
+            
+                <input type="text"  placeholder="ENTER THE CITY NAME" class="name" spellcheck="false" >
+                
+                <button class="submit border"><i class="fa-solid fa-magnifying-glass search-icon"></i></button>
+
+        </div>
+        
+        <div class="output">
+            <div class="weather-icon">
+                
+                <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="" class="cloud">
+                <p class="weather-conditon">rain</p>
+            </div>
+            <div class="temperature">  
+                <div class="actualTemp"> 45 &degC</div>
+                <div class="feelslikeTemp">Feels Like : 45 &degC</div>
+            </div>
+
+        <div class="city-name"> city name </div>
+       
+        <div class="other-info">
+             
+        <div class="humiduty">
+            <div class="same">
+                <i class="fa-solid fa-water humidity-icon" ></i>
+                <p class="humidity"> 45% </p>
+            </div>
+            <p class="humidi">HUMIDITY</p>
+        </div>  
+        <div class="wind-speed"> 
+            <div class="same">
+                <i class="fa-solid fa-wind wind-icon"></i>
+            <p class="windspeed">10km/hr</p>
+            </div>
+            
+            <p class="wind">WIND SPEED</p>
+        </div>
+
+        </div>
+
+        </div>
+
+
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
